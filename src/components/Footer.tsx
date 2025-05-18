@@ -1,5 +1,5 @@
 
-import { Instagram, Mail, Whatsapp } from "lucide-react";
+import { Instagram, Mail, WhatsApp } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const Footer = () => {
@@ -25,7 +25,7 @@ const Footer = () => {
                   <Instagram className="h-5 w-5 text-primary" />
                 </Button>
                 <Button variant="outline" size="icon" className="rounded-full">
-                  <Whatsapp className="h-5 w-5 text-primary" />
+                  <WhatsApp className="h-5 w-5 text-primary" />
                 </Button>
                 <Button variant="outline" size="icon" className="rounded-full">
                   <Mail className="h-5 w-5 text-primary" />
@@ -42,7 +42,7 @@ const Footer = () => {
                   <span>Instagram: @rezemais.app</span>
                 </div>
                 <div className="flex items-center">
-                  <Whatsapp className="h-5 w-5 text-primary mr-2" />
+                  <WhatsApp className="h-5 w-5 text-primary mr-2" />
                   <span>WhatsApp: (XX) XXXXX-XXXX</span>
                 </div>
               </div>
