@@ -1,5 +1,6 @@
 
-import { Instagram, Mail, WhatsApp } from "lucide-react";
+import { Instagram, Mail } from "lucide-react";
+import { MessageSquare } from "lucide-react"; // Using MessageSquare as an alternative to WhatsApp
 import { Button } from "@/components/ui/button";
 
 const Footer = () => {
@@ -25,7 +26,7 @@ const Footer = () => {
                   <Instagram className="h-5 w-5 text-primary" />
                 </Button>
                 <Button variant="outline" size="icon" className="rounded-full">
-                  <WhatsApp className="h-5 w-5 text-primary" />
+                  <MessageSquare className="h-5 w-5 text-primary" />
                 </Button>
                 <Button variant="outline" size="icon" className="rounded-full">
                   <Mail className="h-5 w-5 text-primary" />
@@ -42,7 +43,7 @@ const Footer = () => {
                   <span>Instagram: @rezemais.app</span>
                 </div>
                 <div className="flex items-center">
-                  <WhatsApp className="h-5 w-5 text-primary mr-2" />
+                  <MessageSquare className="h-5 w-5 text-primary mr-2" />
                   <span>WhatsApp: (XX) XXXXX-XXXX</span>
                 </div>
               </div>
