@@ -26,14 +26,14 @@ export default {
 				background: 'hsl(var(--background))',
 				foreground: 'hsl(var(--foreground))',
 				primary: {
-					DEFAULT: '#5D3FD3',
-					light: '#9370DB',
-					dark: '#4B0082',
+					DEFAULT: '#FF7A00', // Orange flame color from logo
+					light: '#FFA347', // Lighter orange
+					dark: '#E06D00', // Darker orange
 					foreground: 'hsl(var(--primary-foreground))'
 				},
 				secondary: {
-					DEFAULT: 'hsl(var(--secondary))',
-					foreground: 'hsl(var(--secondary-foreground))'
+					DEFAULT: '#0C2249', // Dark navy blue from logo
+					foreground: '#FFFFFF' // White text
 				},
 				destructive: {
 					DEFAULT: 'hsl(var(--destructive))',
@@ -44,7 +44,7 @@ export default {
 					foreground: 'hsl(var(--muted-foreground))'
 				},
 				accent: {
-					DEFAULT: '#FFD700',
+					DEFAULT: '#FFD700', // Gold accent
 					foreground: '#000000'
 				},
 				popover: {
