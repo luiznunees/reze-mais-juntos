@@ -1,6 +1,5 @@
 
 import AboutUs from "@/components/AboutUs";
-import DonationQR from "@/components/DonationQR";
 import FAQ from "@/components/FAQ";
 import Features from "@/components/Features";
 import Footer from "@/components/Footer";
@@ -16,7 +15,6 @@ const Index = () => {
       <Features />
       <Testimonials />
       <PreRegister />
-      <DonationQR />
       <FAQ />
       <Help />
       <AboutUs />
