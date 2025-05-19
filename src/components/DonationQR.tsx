@@ -23,7 +23,7 @@ const DonationQR = () => {
               <div className="w-full max-w-xs mx-auto mb-6">
                 {/* LivePix QR Widget embed */}
                 <iframe
-                  src="https://widget.livepix.gg/embed/26241fcb-05da-4ed9-89dc-f517e6b9df6e"
+                  src="https://livepix.gg/apprezemais"
                   width="100%"
                   height="300px"
                   style={{ border: 'none', borderRadius: '8px' }}
@@ -38,7 +38,7 @@ const DonationQR = () => {
               
               <Button 
                 className="bg-primary hover:bg-primary-dark text-white"
-                onClick={() => window.open('https://livepix.gg/embed/26241fcb-05da-4ed9-89dc-f517e6b9df6e', '_blank')}
+                onClick={() => window.open('https://livepix.gg/apprezemais', '_blank')}
               >
                 Fazer Doação
               </Button>
